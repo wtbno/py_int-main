@@ -1,6 +1,6 @@
 operacao = input(" Digite a operação desejada (soma, subt, div, mult): ")
-num_1 = input("Insira o primeiro número: ")
-num_2 = input("Insira o segundo número: ")
+num_1 = int(input("Insira o primeiro número: "))
+num_2 = int(input("Insira o segundo número: "))
 
 if operacao == "soma":
     resultado = int(num_1) + int(num_2)
@@ -18,7 +18,7 @@ print("O resultado da operação é: " + str(resultado))
 
 
 #ordem de precedência 
-#()
-#**
-#* / // %
-#+ -
+# 1 ()
+# 2 **
+# 3 * / // %
+# 4 + -
