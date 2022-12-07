@@ -17,3 +17,8 @@ print("O resultado da operação é: " + str(resultado))
 
 
 
+#ordem de precedência 
+#()
+#**
+#* / // %
+#+ -
