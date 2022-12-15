@@ -1,6 +1,7 @@
-numero = int(input('Digite um número: '))
+n = int (input('Digite um número: '))
+d = n * 2
+t = n * 3
+r = n ** (1/2)
 
-dobro = numero + numero
-trip = numero * 3
-raiz = numero ** (1/2)
-print('O dobro desse número vale {} \n o triplo desse número vale {} \n e sua raiz quadrada vale {}' .format(numero, dobro, trip, raiz))
+print('o dobro de {} vale {}'. format(n, d))
+print('O triplo de {} vale {}. e a raiz quadrada de {} vale {}.' .format(n, t, n, r))
