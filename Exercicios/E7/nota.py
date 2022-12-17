@@ -6,7 +6,5 @@ if mediaFinal >= 7:
     print('Você foi aprovado')
 elif mediaFinal <= 6:
     print('Você foi reprovado')
-#Aplicar a ordem de precedencia
+# Aplicar a ordem de precedencia
 print('A sua média final é {}' .format(mediaFinal))
-
-
