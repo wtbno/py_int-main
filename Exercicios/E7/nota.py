@@ -7,7 +7,5 @@ if mediaFinal >= 7
 else:
 #Aplicar a ordem de precedencia
 print('A sua média final é {}' .format(mediaFinal))
-=======
-#Aplicar a ordem de precedencia
-print('A sua média é {}' .format(mediaFinal))
->>>>>>> origin/master
+
+
