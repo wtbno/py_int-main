@@ -1,9 +1,9 @@
 # Count
-subs = 'ma'
+subs = 'a'
 texto = 'Bom programador? Ler e interpretar textos, fazer muitos exercicios'
 
 conta = texto.count(subs)
-print('quantidade de ma = ', conta)
+print('quantidade de a = ', conta)
 
 
 frase3 = 'Zelda é o melhor jogo'
